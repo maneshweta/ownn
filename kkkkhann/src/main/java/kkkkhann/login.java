@@ -10,7 +10,7 @@ public class login {
 	// step 1 to declare the data members global variables
 			@FindBy(css="#login-or-signup")private WebElement loginlink;
 		    
-			@FindBy(css="#uid-login-form-0-wb-id-identifier-field") private WebElement sername;
+			@FindBy(css="#uid-login-form-0-wb-id-identifier-field") private WebElement sername; give username
 			
 			@FindBy(css="#uid-labeled-text-field-1-wb-id-field") private WebElement password;
 			
