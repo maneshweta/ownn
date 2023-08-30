@@ -22,7 +22,7 @@ public class code {
 	}
 	public void entercode() {
 		Entercode.sendKeys("25723578");     change code also it is just for commit
-	}
+	}                                       //i have changed
 	public void Back() {
 		back.click();
 	}
