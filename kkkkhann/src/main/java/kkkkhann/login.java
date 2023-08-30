@@ -6,11 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class login {
-	change name
+//	change name
 	// step 1 to declare the data members global variables
 			@FindBy(css="#login-or-signup")private WebElement loginlink;
 		    
-			@FindBy(css="#uid-login-form-0-wb-id-identifier-field") private WebElement sername; give username
+			@FindBy(css="#uid-login-form-0-wb-id-identifier-field") private WebElement sername; //give username
 			
 			@FindBy(css="#uid-labeled-text-field-1-wb-id-field") private WebElement password;
 			
@@ -30,7 +30,7 @@ public class login {
 				 sername.sendKeys("Abhinavvelocity");
 			 }
 			public void password() {
-				password.sendKeys("Abhi@1804");
+				password.sendKeys("Abhi@1804+werty");
 			}
 			public void loginbutton() {
 				loginbutton.click();
