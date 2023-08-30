@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class code {
      @FindBy(css="._1lo7mt7k") private WebElement codeclick;
 	
-	@FindBy(css="._q92ef6") private WebElement Entercode;
+	@FindBy(css="._q92ef6") private WebElement Entercode;     change here
 	
 	@FindBy(css="._1mwdd64y") private WebElement back;
 	
@@ -21,7 +21,7 @@ public class code {
 		codeclick.click();
 	}
 	public void entercode() {
-		Entercode.sendKeys("25723578");
+		Entercode.sendKeys("25723578");     change code also it is just for commit
 	}
 	public void Back() {
 		back.click();
