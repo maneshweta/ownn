@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class login {
-	
+	change name
 	// step 1 to declare the data members global variables
 			@FindBy(css="#login-or-signup")private WebElement loginlink;
 		    
